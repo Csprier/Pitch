@@ -1,13 +1,19 @@
 class Deck {
-  constructor(){
+  constructor() {
+    /**
+     * Every time a new instance of Deck is created, 
+     * reset the deck and shuffle it 
+     */
     this.deck = [];
     this.resetDeck();
     this.shuffle();
   }
 
+  /** - RESET DECK -----
+   * Shuffles the deck to be ordered by suit and number
+   */
   resetDeck(){
     this.deck = [];
-
     const suits = ['Hearts', 'Spades', 'Clubs', 'Diamonds'];
     const values = ['Ace', 2, 3, 4, 5, 6, 7, 8, 9, 10, 'Jack', 'Queen', 'King'];
 
