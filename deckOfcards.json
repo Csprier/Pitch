@@ -1,0 +1,218 @@
+{
+  "Spades": {
+    "2": {
+      "value": 1,
+      "key": "Low"
+    },
+    "3": {
+      "value": 0,
+      "key": "Game"
+    },
+    "4": {
+      "value": 0,
+      "key": "Game"
+    },
+    "5": {
+      "value": 0,
+      "key": "Game"
+    },
+    "6": {
+      "value": 0,
+      "key": "Game"
+    },
+    "7": {
+      "value": 0,
+      "key": "Game"
+    },
+    "8": {
+      "value": 0,
+      "key": "Game"
+    },
+    "9": {
+      "value": 0,
+      "key": "Game"
+    },
+    "10": {
+      "value": 0,
+      "key": "Game"
+    },
+    "Jack": {
+      "value": 1,
+      "key": "Jack"
+    },
+    "Queen": {
+      "value": 0,
+      "key": "Game"
+    },
+    "King": {
+      "value": 0,
+      "key": "Game"
+    },
+    "Ace": {
+      "value": 1,
+      "key": "High"
+    }
+  },
+  "Hearts": {
+    "2": {
+      "value": 1,
+      "key": "Low"
+    },
+    "3": {
+      "value": 0,
+      "key": "Game"
+    },
+    "4": {
+      "value": 0,
+      "key": "Game"
+    },
+    "5": {
+      "value": 0,
+      "key": "Game"
+    },
+    "6": {
+      "value": 0,
+      "key": "Game"
+    },
+    "7": {
+      "value": 0,
+      "key": "Game"
+    },
+    "8": {
+      "value": 0,
+      "key": "Game"
+    },
+    "9": {
+      "value": 0,
+      "key": "Game"
+    },
+    "10": {
+      "value": 0,
+      "key": "Game"
+    },
+    "Jack": {
+      "value": 1,
+      "key": "Jack"
+    },
+    "Queen": {
+      "value": 0,
+      "key": "Game"
+    },
+    "King": {
+      "value": 0,
+      "key": "Game"
+    },
+    "Ace": {
+      "value": 1,
+      "key": "High"
+    }
+  },
+  "Clubs": {
+    "2": {
+      "value": 1,
+      "key": "Low"
+    },
+    "3": {
+      "value": 0,
+      "key": "Game"
+    },
+    "4": {
+      "value": 0,
+      "key": "Game"
+    },
+    "5": {
+      "value": 0,
+      "key": "Game"
+    },
+    "6": {
+      "value": 0,
+      "key": "Game"
+    },
+    "7": {
+      "value": 0,
+      "key": "Game"
+    },
+    "8": {
+      "value": 0,
+      "key": "Game"
+    },
+    "9": {
+      "value": 0,
+      "key": "Game"
+    },
+    "10": {
+      "value": 0,
+      "key": "Game"
+    },
+    "Jack": {
+      "value": 1,
+      "key": "Jack"
+    },
+    "Queen": {
+      "value": 0,
+      "key": "Game"
+    },
+    "King": {
+      "value": 0,
+      "key": "Game"
+    },
+    "Ace": {
+      "value": 1,
+      "key": "High"
+    }
+  },
+  "Diamonds": {
+   "2": {
+      "value": 1,
+      "key": "Low"
+    },
+    "3": {
+      "value": 0,
+      "key": "Game"
+    },
+    "4": {
+      "value": 0,
+      "key": "Game"
+    },
+    "5": {
+      "value": 0,
+      "key": "Game"
+    },
+    "6": {
+      "value": 0,
+      "key": "Game"
+    },
+    "7": {
+      "value": 0,
+      "key": "Game"
+    },
+    "8": {
+      "value": 0,
+      "key": "Game"
+    },
+    "9": {
+      "value": 0,
+      "key": "Game"
+    },
+    "10": {
+      "value": 0,
+      "key": "Game"
+    },
+    "Jack": {
+      "value": 1,
+      "key": "Jack"
+    },
+    "Queen": {
+      "value": 0,
+      "key": "Game"
+    },
+    "King": {
+      "value": 0,
+      "key": "Game"
+    },
+    "Ace": {
+      "value": 1,
+      "key": "High"
+    }
+  }
+}
