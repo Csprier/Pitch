@@ -1,5 +1,11 @@
 class Deck {
-  constructor() {
+  constructor(){
+    this.deck = [];
+    this.resetDeck();
+    this.shuffle();
+  }
+
+  resetDeck(){
     this.deck = [];
 
     const suits = ['Hearts', 'Spades', 'Clubs', 'Diamonds'];
@@ -10,7 +16,7 @@ class Deck {
         this.deck.push(`${values[value]} of ${suits[suit]}`);
       }
     }
-  }; // end constructor
+  }
 
   /** - SHUFFLE THE DECK ----- */
   shuffle() {
