@@ -22,6 +22,7 @@ class Deck {
         this.deck.push(`${values[value]} of ${suits[suit]}`);
       }
     }
+    console.log(this.deck);
   }
 
   /** - SHUFFLE THE DECK ----- */
@@ -51,9 +52,9 @@ function dealThree(playerHand) {
   playerHand.push(TestDeck.dealCard());
 };
 
-let p1hand = [];
-let p2hand = [];
-let p3hand = [];
+let p1hand = [],
+    p2hand = [],
+    p3hand = [];
 
 // first 3 cards of a players hand are dealt
 dealThree(p1hand);
