@@ -22,8 +22,7 @@ class Deck {
         this.deck.push(`${values[value]} of ${suits[suit]}`);
       }
     }
-    console.log(this.deck);
-  }
+  };
 
   /** - SHUFFLE THE DECK ----- */
   shuffle() {
@@ -44,28 +43,4 @@ class Deck {
 
 }; // end class
 
-let TestDeck = new Deck();
-
-function dealThree(playerHand) {
-  playerHand.push(TestDeck.dealCard());
-  playerHand.push(TestDeck.dealCard());
-  playerHand.push(TestDeck.dealCard());
-};
-
-let p1hand = [],
-    p2hand = [],
-    p3hand = [];
-
-// first 3 cards of a players hand are dealt
-dealThree(p1hand);
-dealThree(p2hand);
-dealThree(p3hand);
-// second 3, total of 6 cards in their hand
-dealThree(p1hand);
-dealThree(p2hand);
-dealThree(p3hand);
-
-console.log(p1hand);
-console.log(p2hand);
-console.log(p3hand);
-
+module.exports = { Deck };
