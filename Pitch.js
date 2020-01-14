@@ -6,6 +6,7 @@ class Pitch {
     this.deck = new Deck();
     this.winningScore = num || 7;
     this.players = [];
+    this.trump = '';
   };
 
   addPlayer(player) {
