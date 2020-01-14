@@ -3,268 +3,268 @@ const deckOfCards = {
     "2": {
       "value": 1,
       "key": "Low",
-      "images": "2S.png"
+      "image": "2S.png"
     },
     "3": {
       "value": 0,
       "key": "Game",
-      "images": "3S.png"
+      "image": "3S.png"
     },
     "4": {
       "value": 0,
       "key": "Game",
-      "images": "4S.png"
+      "image": "4S.png"
     },
     "5": {
       "value": 0,
       "key": "Game",
-      "images": "5S.png"
+      "image": "5S.png"
     },
     "6": {
       "value": 0,
       "key": "Game",
-      "images": "6S.png"
+      "image": "6S.png"
     },
     "7": {
       "value": 0,
       "key": "Game",
-      "images": "7S.png"
+      "image": "7S.png"
     },
     "8": {
       "value": 0,
       "key": "Game",
-      "images": "8S.png"
+      "image": "8S.png"
     },
     "9": {
       "value": 0,
       "key": "Game",
-      "images": "9S.png"
+      "image": "9S.png"
     },
     "10": {
       "value": 10,
       "key": "Game",
-      "images": "10S.png"
+      "image": "10S.png"
     },
     "Jack": {
       "value": 1,
       "key": "Jack",
-      "images": "JS.png"
+      "image": "JS.png"
     },
     "Queen": {
       "value": 0,
       "key": "Game",
-      "images": "QS.png"
+      "image": "QS.png"
     },
     "King": {
       "value": 0,
       "key": "Game",
-      "images": "KS.png"
+      "image": "KS.png"
     },
     "Ace": {
       "value": 1,
       "key": "High",
-      "images": "AS.png"
+      "image": "AS.png"
     }
   },
   "Hearts": {
     "2": {
       "value": 1,
       "key": "Low",
-      "images": "2H.png"
+      "image": "2H.png"
     },
     "3": {
       "value": 0,
       "key": "Game",
-      "images": "3H.png"
+      "image": "3H.png"
     },
     "4": {
       "value": 0,
       "key": "Game",
-      "images": "4H.png"
+      "image": "4H.png"
     },
     "5": {
       "value": 0,
       "key": "Game",
-      "images": "5H.png"
+      "image": "5H.png"
     },
     "6": {
       "value": 0,
       "key": "Game",
-      "images": "6H.png"
+      "image": "6H.png"
     },
     "7": {
       "value": 0,
       "key": "Game",
-      "images": "7H.png"
+      "image": "7H.png"
     },
     "8": {
       "value": 0,
       "key": "Game",
-      "images": "8H.png"
+      "image": "8H.png"
     },
     "9": {
       "value": 0,
       "key": "Game",
-      "images": "9H.png"
+      "image": "9H.png"
     },
     "10": {
       "value": 10,
       "key": "Game",
-      "images": "10H.png"
+      "image": "10H.png"
     },
     "Jack": {
       "value": 1,
       "key": "Jack",
-      "images": "JH.png"
+      "image": "JH.png"
     },
     "Queen": {
       "value": 0,
       "key": "Game",
-      "images": "QH.png"
+      "image": "QH.png"
     },
     "King": {
       "value": 0,
       "key": "Game",
-      "images": "KH.png"
+      "image": "KH.png"
     },
     "Ace": {
       "value": 1,
       "key": "High",
-      "images": "AH.png"
+      "image": "AH.png"
     }
   },
   "Clubs": {
     "2": {
       "value": 1,
       "key": "Low",
-      "images": "2C.png"
+      "image": "2C.png"
     },
     "3": {
       "value": 0,
       "key": "Game",
-      "images": "3C.png"
+      "image": "3C.png"
     },
     "4": {
       "value": 0,
       "key": "Game",
-      "images": "4C.png"
+      "image": "4C.png"
     },
     "5": {
       "value": 0,
       "key": "Game",
-      "images": "5C.png"
+      "image": "5C.png"
     },
     "6": {
       "value": 0,
       "key": "Game",
-      "images": "6C.png"
+      "image": "6C.png"
     },
     "7": {
       "value": 0,
       "key": "Game",
-      "images": "7C.png"
+      "image": "7C.png"
     },
     "8": {
       "value": 0,
       "key": "Game",
-      "images": "8C.png"
+      "image": "8C.png"
     },
     "9": {
       "value": 0,
       "key": "Game",
-      "images": "9C.png"
+      "image": "9C.png"
     },
     "10": {
       "value": 10,
       "key": "Game",
-      "images": "10C.png"
+      "image": "10C.png"
     },
     "Jack": {
       "value": 1,
       "key": "Jack",
-      "images": "JC.png"
+      "image": "JC.png"
     },
     "Queen": {
       "value": 0,
       "key": "Game",
-      "images": "QC.png"
+      "image": "QC.png"
     },
     "King": {
       "value": 0,
       "key": "Game",
-      "images": "KC.png"
+      "image": "KC.png"
     },
     "Ace": {
       "value": 1,
       "key": "High",
-      "images": "AC.png"
+      "image": "AC.png"
     }
   },
   "Diamonds": {
    "2": {
       "value": 1,
       "key": "Low",
-      "images": "2D.png"
+      "image": "2D.png"
     },
     "3": {
       "value": 0,
       "key": "Game",
-      "images": "3D.png"
+      "image": "3D.png"
     },
     "4": {
       "value": 0,
       "key": "Game",
-      "images": "4D.png"
+      "image": "4D.png"
     },
     "5": {
       "value": 0,
       "key": "Game",
-      "images": "5D.png"
+      "image": "5D.png"
     },
     "6": {
       "value": 0,
       "key": "Game",
-      "images": "6D.png"
+      "image": "6D.png"
     },
     "7": {
       "value": 0,
       "key": "Game",
-      "images": "7D.png"
+      "image": "7D.png"
     },
     "8": {
       "value": 0,
       "key": "Game",
-      "images": "8D.png"
+      "image": "8D.png"
     },
     "9": {
       "value": 0,
       "key": "Game",
-      "images": "9D.png"
+      "image": "9D.png"
     },
     "10": {
       "value": 10,
       "key": "Game",
-      "images": "10D.png"
+      "image": "10D.png"
     },
     "Jack": {
       "value": 1,
       "key": "Jack",
-      "images": "JD.png"
+      "image": "JD.png"
     },
     "Queen": {
       "value": 0,
       "key": "Game",
-      "images": "QD.png"
+      "image": "QD.png"
     },
     "King": {
       "value": 0,
       "key": "Game",
-      "images": "KD.png"
+      "image": "KD.png"
     },
     "Ace": {
       "value": 1,
       "key": "High",
-      "images": "AD.png"
+      "image": "AD.png"
     }
   }
 };
