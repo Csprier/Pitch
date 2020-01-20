@@ -17,8 +17,9 @@ function init(server) {
     });
 
     socket.on('disconnect', () => {
+      const user = gameState.players[socket.id];
+      console.log(`${user} disconnected!`);
       delete gameState.players[socket.id];
-      console.log('A user disconnected!');
     });
   }); // end io.on()
 }; // end fn();
