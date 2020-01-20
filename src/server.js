@@ -6,7 +6,9 @@ const sockets = require('./sockets');
 
 const app = express();
 app.use(express.json());
-app.use(express.static(path.join(__dirname, '../public')));
+
+const staticPath = path.join(__dirname, '../public');
+app.use(express.static(staticPath, { extensions: [ 'html ']}));
 
 const server = http.createServer(app);
 sockets(server);
