@@ -9,13 +9,7 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, '../public')));
 
 const server = http.createServer(app);
-
-// app.get('/', (req, res) => {
-//   res.sendFile(__dirname, '../public/index.html');
-// });
-
 sockets(server);
-
 const port = process.env.port || 8080;
 server.listen(port, () => {
   console.log(`Listening http://localhost:${port}`)

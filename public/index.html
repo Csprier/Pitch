@@ -3,12 +3,81 @@
   <head>
     <title>Pitch</title>
     <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <link rel="stylesheet" href="card.css">    
   </head>
   <!--  -->
   <body>
     <h1>Pitch!</h1>
-    <div id="cards"></div>
-    <!-- <script src="cardImages.js"></script> -->
-  </body>
+    <div id="date"></div>
+    <script>
+      let d = new Date(),
+      dateContainer = document.getElementById('date');
+      dateContainer.innerHTML = `<span>${d}.</span>`;
+    </script>
+
+
+    <div id="player1"></div>
+    <div id="player2"></div>
+    <div id="player3"></div>
+    <!-- <script src="../cardImages.js"></script> -->
+    <!--
+    <div id="cards">
+      <img src="../images/2S.png" alt="2S.png" class="card" />
+      <img src="../images/3S.png" alt="3S.png" class="card" />
+      <img src="../images/4S.png" alt="4S.png" class="card" />
+      <img src="../images/5S.png" alt="5S.png" class="card" />
+      <img src="../images/6S.png" alt="6S.png" class="card" />
+      <img src="../images/7S.png" alt="7S.png" class="card" />
+      <img src="../images/8S.png" alt="8S.png" class="card" />
+      <img src="../images/9S.png" alt="9S.png" class="card" />
+      <img src="../images/10S.png" alt="10S.png" class="card" />
+      <img src="../images/JS.png" alt="JS.png" class="card" />
+      <img src="../images/QS.png" alt="QS.png" class="card" />
+      <img src="../images/KS.png" alt="KS.png" class="card" />
+      <img src="../images/AS.png" alt="AS.png" class="card" />
+      <img src="../images/2H.png" alt="2H.png" class="card" />
+      <img src="../images/3H.png" alt="3H.png" class="card" />
+      <img src="../images/4H.png" alt="4H.png" class="card" />
+      <img src="../images/5H.png" alt="5H.png" class="card" />
+      <img src="../images/6H.png" alt="6H.png" class="card" />
+      <img src="../images/7H.png" alt="7H.png" class="card" />
+      <img src="../images/8H.png" alt="8H.png" class="card" />
+      <img src="../images/9H.png" alt="9H.png" class="card" />
+      <img src="../images/10H.png" alt="10H.png" class="card" />
+      <img src="../images/JH.png" alt="JH.png" class="card" />
+      <img src="../images/QH.png" alt="QH.png" class="card" />
+      <img src="../images/KH.png" alt="KH.png" class="card" />
+      <img src="../images/AH.png" alt="AH.png" class="card" />
+      <img src="../images/2C.png" alt="2C.png" class="card" />
+      <img src="../images/3C.png" alt="3C.png" class="card" />
+      <img src="../images/4C.png" alt="4C.png" class="card" />
+      <img src="../images/5C.png" alt="5C.png" class="card" />
+      <img src="../images/6C.png" alt="6C.png" class="card" />
+      <img src="../images/7C.png" alt="7C.png" class="card" />
+      <img src="../images/8C.png" alt="8C.png" class="card" />
+      <img src="../images/9C.png" alt="9C.png" class="card" />
+      <img src="../images/10C.png" alt="10C.png" class="card" />
+      <img src="../images/JC.png" alt="JC.png" class="card" />
+      <img src="../images/QC.png" alt="QC.png" class="card" />
+      <img src="../images/KC.png" alt="KC.png" class="card" />
+      <img src="../images/AC.png" alt="AC.png" class="card" />
+      <img src="../images/2D.png" alt="2D.png" class="card" />
+      <img src="../images/3D.png" alt="3D.png" class="card" />
+      <img src="../images/4D.png" alt="4D.png" class="card" />
+      <img src="../images/5D.png" alt="5D.png" class="card" />
+      <img src="../images/6D.png" alt="6D.png" class="card" />
+      <img src="../images/7D.png" alt="7D.png" class="card" />
+      <img src="../images/8D.png" alt="8D.png" class="card" />
+      <img src="../images/9D.png" alt="9D.png" class="card" />
+      <img src="../images/10D.png" alt="10D.png" class="card" />
+      <img src="../images/JD.png" alt="JD.png" class="card" />
+      <img src="../images/QD.png" alt="QD.png" class="card" />
+      <img src="../images/KD.png" alt="KD.png" class="card" />
+      <img src="../images/AD.png" alt="AD.png" class="card" />
+    </div>
+  -->
+
+
+</body>
   <!--  -->
 </html>

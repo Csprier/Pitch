@@ -1,0 +1,18 @@
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.card {
+  display: flex;
+  margin: 2px;
+  padding: 4px;
+  width: 50px;
+  border: 1px solid lightslategray;
+}
+
+.card:hover {
+  background-color: blueviolet;
+}
