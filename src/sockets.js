@@ -2,6 +2,7 @@ const socketIO = require('socket.io');
 
 function init(server) {
   const gameState = {
+    started: false,
     players: {},
   };
 
@@ -14,7 +15,12 @@ function init(server) {
       gameState.players[socket.id] = name;
       console.log(gameState.players);
     });
-  });
-};
+
+    socket.on('disconnect', () => {
+      delete gameState.players[socket.id];
+      console.log('A user disconnected!');
+    });
+  }); // end io.on()
+}; // end fn();
 
 module.exports = init;
