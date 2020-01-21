@@ -105,14 +105,21 @@
     const form = document.getElementById('chatform');
     const chatbox = document.getElementById('messages');
     const input = document.getElementById('m');
+    const socket = io();
+    let id;
+    socket.on('connect', () => {
+      id = socket.id;
+      console.log('ID: ', id);
+    });
+
     form.addEventListener('submit', (e) => {
       e.preventDefault();
-      let username;
+      let username = id;
       let message = e.target.elements.m.value;
       console.log(message);
       let messageHTML = document.createElement('li');
-      messageHTML.innerHTML = message;
-      // messageHTML.innerHTML = username + ': ' + message;
+      // messageHTML.innerHTML = message;
+      messageHTML.innerHTML = username + ': ' + message;
       chatbox.appendChild(messageHTML);
       m.value = '';
       return;

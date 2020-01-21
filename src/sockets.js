@@ -1,11 +1,7 @@
 const socketIO = require('socket.io');
+let gameState = require('./gameState');
 
 function init(server) {
-  const gameState = {
-    started: false,
-    players: {},
-  };
-
   const io = socketIO(server);
   io.on('connection', (socket) => {
     console.log('A user connected!');
