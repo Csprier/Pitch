@@ -5,7 +5,12 @@ socket.on('connect', () => {
   socket.emit('set-name', { name });
 });
 
+socket.on('connect', () => {
+  console.log(socket);
+  // console.log(socket.id);
+});
+
 socket.on('chat message', (msg) => {
-  socket.emit('chat-message', { message: msg });
+  socket.emit('chat message', { message: msg });
   console.log('message: ' + msg);
 });
